@@ -16,7 +16,7 @@ export default function BlogPage() {
     <div className="bg-secondary">
       <div className="container py-16 lg:py-24">
         <div className="text-center">
-          <h1 className="font-headline text-4xl font-bold text-primary md:text-5xl">Clarity Clinic Blog</h1>
+          <h1 className="font-headline text-4xl font-bold text-primary md:text-5xl">Orbit Clinic Blog</h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             Insights and articles on eye health, clinic news, and wellness from our experts.
           </p>

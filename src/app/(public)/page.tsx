@@ -48,13 +48,13 @@ export default function HomePage() {
         <div className="container grid grid-cols-1 items-center gap-12 md:grid-cols-2">
           <div className="space-y-4">
             <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">
-              Welcome to Clarity Eye Clinic
+              Welcome to Orbit Eye Clinic
             </h2>
             <p className="text-lg text-muted-foreground">
               Our mission is to provide comprehensive and compassionate eye care to our community. We believe in building lasting relationships with our patients, founded on trust and clinical excellence.
             </p>
             <p className="text-muted-foreground">
-              At Clarity Eye Clinic, we combine state-of-the-art technology with a patient-first approach. From routine exams to complex surgeries, your visual health is our utmost priority.
+              At Orbit Eye Clinic, we combine state-of-the-art technology with a patient-first approach. From routine exams to complex surgeries, your visual health is our utmost priority.
             </p>
             <Button asChild variant="link" className="p-0 text-primary">
               <Link href="/team">Meet Our Team <ArrowRight className="ml-2 h-4 w-4" /></Link>

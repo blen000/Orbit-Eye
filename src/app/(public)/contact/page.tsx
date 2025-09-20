@@ -71,7 +71,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="h-6 w-6 flex-shrink-0 text-accent" />
-                  <span>contact@clarityclinic.com</span>
+                  <span>contact@orbiteyeclinic.com</span>
                 </div>
               </CardContent>
             </Card>

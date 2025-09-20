@@ -14,7 +14,7 @@ export function Logo({ className }: { className?: string }) {
       <div className="rounded-full bg-primary p-2 text-primary-foreground">
         <Eye className="h-5 w-5" />
       </div>
-      <span className="font-headline">Clarity Eye Clinic</span>
+      <span className="font-headline">Orbit Eye Clinic</span>
     </Link>
   );
 }

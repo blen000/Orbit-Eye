@@ -3,9 +3,9 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Clarity Eye Clinic - Your Vision, Our Focus',
+  title: 'Orbit Eye Clinic - Your Vision, Our Focus',
   description:
-    'Clarity Eye Clinic offers comprehensive eye care services, from routine check-ups to advanced surgical procedures. Trust our expert ophthalmologists with your vision.',
+    'Orbit Eye Clinic offers comprehensive eye care services, from routine check-ups to advanced surgical procedures. Trust our expert ophthalmologists with your vision.',
 };
 
 export default function RootLayout({

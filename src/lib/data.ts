@@ -101,7 +101,7 @@ export const testimonials: Testimonial[] = [
     id: '1',
     name: 'Sarah L.',
     location: 'New York, NY',
-    quote: 'The LASIK procedure at Clarity Eye Clinic was life-changing! The staff was so professional and caring. I can see 20/20 now, and I couldn\'t be happier.',
+    quote: 'The LASIK procedure at Orbit Eye Clinic was life-changing! The staff was so professional and caring. I can see 20/20 now, and I couldn\'t be happier.',
   },
   {
     id: '2',
@@ -113,7 +113,7 @@ export const testimonials: Testimonial[] = [
     id: '3',
     name: 'Jessica P.',
     location: 'Queens, NY',
-    quote: 'My cataract surgery was a breeze. The recovery was quick, and the world looks so much brighter and clearer now. Thank you to the entire team at Clarity!',
+    quote: 'My cataract surgery was a breeze. The recovery was quick, and the world looks so much brighter and clearer now. Thank you to the entire team at Orbit!',
   },
 ];
 

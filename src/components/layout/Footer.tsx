@@ -47,7 +47,7 @@ export function Footer() {
               <p>123 Vision Avenue, Suite 100</p>
               <p>New York, NY 10001</p>
               <p>
-                Email: <a href="mailto:contact@clarityclinic.com" className="hover:text-primary transition-colors">contact@clarityclinic.com</a>
+                Email: <a href="mailto:contact@orbiteyeclinic.com" className="hover:text-primary transition-colors">contact@orbiteyeclinic.com</a>
               </p>
               <p>
                 Phone: <a href="tel:+12125551234" className="hover:text-primary transition-colors">(212) 555-1234</a>
@@ -67,7 +67,7 @@ export function Footer() {
         </div>
         <Separator className="my-8 bg-border" />
         <div className="flex flex-col items-center justify-between gap-4 text-sm text-muted-foreground sm:flex-row">
-            <p>&copy; {new Date().getFullYear()} Clarity Eye Clinic. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Orbit Eye Clinic. All rights reserved.</p>
             <div className="flex gap-4">
                 <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
                 <Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link>
