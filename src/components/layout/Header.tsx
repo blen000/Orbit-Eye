@@ -9,6 +9,7 @@ import { Logo } from '@/components/layout/Logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from '../theme-toggle';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -52,6 +53,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
+          <ThemeToggle />
           <Button variant="outline" className="hidden items-center gap-2 sm:flex">
             <Phone className="h-4 w-4" />
             <span>Emergency: (212) 555-1234</span>
