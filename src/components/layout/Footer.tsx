@@ -16,7 +16,6 @@ const quickLinks = [
   { name: 'Blog', href: '/blog' },
   { name: 'Contact Us', href: '/contact' },
   { name: 'FAQ', href: '/faq' },
-  { name: 'FAQ Builder', href: '/admin/faq-builder' },
 ];
 
 export function Footer() {
