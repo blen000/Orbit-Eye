@@ -41,7 +41,7 @@ export default function ContactPage() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="phone">Phone Number</Label>
-                  <Input id="phone" type="tel" placeholder="+251 912345678" />
+                  <Input id="phone" type="tel" placeholder="+251908279572" />
                 </div>
                 <Button type="submit" className="w-full">
                   Pay Now

@@ -50,7 +50,7 @@ export function Footer() {
                 Email: <a href="mailto:contact@orbiteyeclinic.com" className="hover:text-primary transition-colors">contact@orbiteyeclinic.com</a>
               </p>
               <p>
-                Phone: <a href="tel:+251912345678" className="hover:text-primary transition-colors">+251 912345678</a>
+                Phone: <a href="tel:+251908279572" className="hover:text-primary transition-colors">+251908279572</a>
               </p>
             </address>
           </div>
