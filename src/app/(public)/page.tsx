@@ -38,7 +38,7 @@ export default function HomePage() {
           <p className="mt-4 max-w-2xl text-lg md:text-xl">
             Experience world-class eye care with a personal touch. Our dedicated team is here to help you see the world more clearly.
           </p>
-          <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
+          <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-10 py-6">
             <Link href="/contact">Book an Appointment</Link>
           </Button>
         </div>
