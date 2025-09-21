@@ -22,7 +22,7 @@ export default function HomePage() {
       <section className="relative h-[60vh] md:h-[80vh]">
         {heroImage && (
           <Image
-            src="/2.jpg"
+            src="/1.jpg"
             alt={heroImage.description}
             fill
             className="object-cover"
@@ -63,7 +63,7 @@ export default function HomePage() {
           <div>
             {aboutImage && (
               <Image
-                src={aboutImage.imageUrl}
+                src="/2.jpg"
                 alt={aboutImage.description}
                 width={600}
                 height={400}

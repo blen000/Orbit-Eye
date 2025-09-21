@@ -10,31 +10,31 @@
     {
       "id": "about",
       "description": "The exterior of the Clarity Eye Clinic building on a sunny day.",
-      "imageUrl": "https://picsum.photos/seed/about/600/400",
+      "imageUrl": "/1.jpg",
       "imageHint": "clinic building"
     },
     {
       "id": "lasik",
       "description": "A close-up of a modern LASIK surgery machine.",
-      "imageUrl": "https://picsum.photos/seed/lasik/600/400",
+      "imageUrl": "/7.jpg",
       "imageHint": "lasik machine"
     },
     {
       "id": "cataract",
       "description": "An ophthalmologist carefully performing a cataract surgery.",
-      "imageUrl": "https://picsum.photos/seed/cataract/600/400",
+      "imageUrl": "/10.jpg",
       "imageHint": "cataract surgery"
     },
     {
       "id": "checkup",
       "description": "A patient undergoing a routine eye examination with an optometrist.",
-      "imageUrl": "https://picsum.photos/seed/checkup/600/400",
+      "imageUrl": "/9.jpg",
       "imageHint": "eye exam"
     },
     {
       "id": "glasses",
       "description": "A display of various stylish eyeglasses in the clinic's optical shop.",
-      "imageUrl": "https://picsum.photos/seed/glasses/600/400",
+      "imageUrl": "/8.jpg",
       "imageHint": "eyeglasses display"
     },
     {

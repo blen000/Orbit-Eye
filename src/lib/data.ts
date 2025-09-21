@@ -61,6 +61,13 @@ export const doctors: Doctor[] = [
     bio: 'Dr. Guteta is passionate about children\'s eye health. He has a friendly and gentle approach, making eye exams a positive experience for our youngest patients. He manages a range of pediatric eye conditions.',
     imageId: 'doctor3',
   },
+  {
+    id: '4',
+    name: 'Dr.Dagimawi',
+    specialty: 'Cataract & Refractive Surgeon',
+    bio: 'Dr. Dagmawi is a board-certified ophthalmologist with over 15 years of experience in advanced cataract and LASIK surgery. She is dedicated to providing personalized care and the latest surgical techniques.',
+    imageId: 'doctor4',
+  },
 ];
 
 export const blogPosts: BlogPost[] = [

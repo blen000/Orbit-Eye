@@ -43,6 +43,10 @@ export default function ContactPage() {
                   <Label htmlFor="phone">Phone Number</Label>
                   <Input id="phone" type="tel" placeholder="+251908279572" />
                 </div>
+                <div className="space-y-2">
+                  <Label htmlFor="phone">choose a doctors</Label>
+                  <Input id="phone" type="tel" placeholder="dr.Tigist" />
+                </div>
                 <Button type="submit" className="w-full">
                   Pay Now
                 </Button>
