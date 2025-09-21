@@ -41,7 +41,7 @@ export default function ContactPage() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="phone">Phone Number</Label>
-                  <Input id="phone" type="tel" placeholder="(555) 555-5555" />
+                  <Input id="phone" type="tel" placeholder="+251 912345678" />
                 </div>
                 <Button type="submit" className="w-full">
                   Pay Now
@@ -58,7 +58,7 @@ export default function ContactPage() {
               <CardContent className="space-y-4 text-muted-foreground">
                 <div className="flex items-start gap-4">
                   <MapPin className="h-6 w-6 flex-shrink-0 text-accent" />
-                  <span>123 Vision Avenue, Suite 100<br/>New York, NY 10001</span>
+                  <span>Ethiopia<br/>Addis Abeba</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Phone className="h-6 w-6 flex-shrink-0 text-accent" />
