@@ -44,13 +44,13 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-primary">Contact Us</h3>
             <address className="mt-4 space-y-2 not-italic text-sm text-muted-foreground">
-              <p>123 Vision Avenue, Suite 100</p>
-              <p>New York, NY 10001</p>
+              <p>Ethiopia</p>
+              <p>Addis Abeba</p>
               <p>
                 Email: <a href="mailto:contact@orbiteyeclinic.com" className="hover:text-primary transition-colors">contact@orbiteyeclinic.com</a>
               </p>
               <p>
-                Phone: <a href="tel:+12125551234" className="hover:text-primary transition-colors">(212) 555-1234</a>
+                Phone: <a href="tel:+251908279572" className="hover:text-primary transition-colors">+251908279572</a>
               </p>
             </address>
           </div>

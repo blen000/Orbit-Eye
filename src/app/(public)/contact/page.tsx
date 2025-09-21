@@ -1,20 +1,11 @@
-import Image from "next/image";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, CreditCard } from "lucide-react";
 
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 
-function getImage(id: string) {
-  return PlaceHolderImages.find((img) => img.id === id);
-}
-
 export default function ContactPage() {
-  const contactImage = getImage('contact');
-
   return (
     <div className="py-16 lg:py-24">
       <div className="container">
@@ -28,7 +19,9 @@ export default function ContactPage() {
         <div className="mt-16 grid grid-cols-1 gap-12 md:grid-cols-2">
           <Card className="shadow-lg">
             <CardHeader>
-              <CardTitle className="text-primary">Send Us a Message</CardTitle>
+              <CardTitle className="text-primary flex items-center gap-2">
+                <CreditCard /> Make a Payment
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <form className="space-y-6">
@@ -47,10 +40,12 @@ export default function ContactPage() {
                   <Input id="email" type="email" placeholder="john.doe@example.com" />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea id="message" placeholder="How can we help you today?" rows={5} />
+                  <Label htmlFor="phone">Phone Number</Label>
+                  <Input id="phone" type="tel" placeholder="+251908279572" />
                 </div>
-                <Button type="submit" className="w-full">Send Message</Button>
+                <Button type="submit" className="w-full">
+                  Pay Now
+                </Button>
               </form>
             </CardContent>
           </Card>
@@ -63,11 +58,11 @@ export default function ContactPage() {
               <CardContent className="space-y-4 text-muted-foreground">
                 <div className="flex items-start gap-4">
                   <MapPin className="h-6 w-6 flex-shrink-0 text-accent" />
-                  <span>123 Vision Avenue, Suite 100<br/>New York, NY 10001</span>
+                  <span>Ethiopia<br/>Addis Abeba</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Phone className="h-6 w-6 flex-shrink-0 text-accent" />
-                  <span>(212) 555-1234</span>
+                  <span>+251908279572</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="h-6 w-6 flex-shrink-0 text-accent" />

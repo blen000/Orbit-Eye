@@ -56,7 +56,7 @@ export function Header() {
           <ThemeToggle />
           <Button variant="outline" className="hidden items-center gap-2 sm:flex">
             <Phone className="h-4 w-4" />
-            <span>Emergency: (212) 555-1234</span>
+            <span>Emergency: +251908279572</span>
           </Button>
 
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
