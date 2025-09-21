@@ -42,23 +42,23 @@ export const services: Service[] = [
 export const doctors: Doctor[] = [
   {
     id: '1',
-    name: 'Dr. Evelyn Reed',
+    name: 'Dr. Tigist',
     specialty: 'Cataract & Refractive Surgeon',
-    bio: 'Dr. Reed is a board-certified ophthalmologist with over 15 years of experience in advanced cataract and LASIK surgery. She is dedicated to providing personalized care and the latest surgical techniques.',
+    bio: 'Dr. Tigist is a board-certified ophthalmologist with over 15 years of experience in advanced cataract and LASIK surgery. She is dedicated to providing personalized care and the latest surgical techniques.',
     imageId: 'doctor1',
   },
   {
     id: '2',
-    name: 'Dr. Marcus Thorne',
+    name: 'Dr. Destaw',
     specialty: 'Glaucoma & Retina Specialist',
-    bio: 'Dr. Thorne specializes in the medical and surgical management of glaucoma and retinal diseases. He is a respected researcher and advocate for early detection and treatment of eye conditions.',
+    bio: 'Dr. Destaw specializes in the medical and surgical management of glaucoma and retinal diseases. He is a respected researcher and advocate for early detection and treatment of eye conditions.',
     imageId: 'doctor2',
   },
   {
     id: '3',
-    name: 'Dr. Aliyah Chen',
+    name: 'Dr. Guteta',
     specialty: 'Pediatric Ophthalmology',
-    bio: 'Dr. Chen is passionate about children\'s eye health. She has a friendly and gentle approach, making eye exams a positive experience for our youngest patients. She manages a range of pediatric eye conditions.',
+    bio: 'Dr. Guteta is passionate about children\'s eye health. He has a friendly and gentle approach, making eye exams a positive experience for our youngest patients. He manages a range of pediatric eye conditions.',
     imageId: 'doctor3',
   },
 ];
@@ -71,7 +71,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Are your eyes tired after a long day of work? You might be experiencing digital eye strain. Learn the causes and how to prevent it.',
     content: 'In today\'s world, we spend countless hours staring at digital screens. This can lead to a condition known as digital eye strain or computer vision syndrome. Symptoms include dry eyes, headaches, blurred vision, and neck pain. The main causes are glare, poor lighting, and the blue light emitted from screens. To combat this, follow the 20-20-20 rule: every 20 minutes, look at something 20 feet away for at least 20 seconds. Also, ensure your workspace is well-lit and consider blue light filtering glasses.',
     date: '2024-07-15',
-    author: 'Dr. Evelyn Reed',
+    author: 'Dr. Tigist',
     imageId: 'blog1',
   },
   {
@@ -81,7 +81,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Did you know your diet can impact your vision? Discover the best foods to keep your eyes healthy and strong.',
     content: 'A balanced diet rich in certain nutrients is essential for maintaining good eye health. Foods rich in vitamins C and E, zinc, lutein, zeaxanthin, and omega-3 fatty acids can help ward off age-related vision problems like macular degeneration and cataracts. Include these in your diet: leafy green vegetables like spinach and kale, oily fish like salmon and tuna, eggs, nuts, and citrus fruits. And yes, carrots are great too, thanks to their high vitamin A content!',
     date: '2024-06-28',
-    author: 'Dr. Aliyah Chen',
+    author: 'Dr. Guteta',
     imageId: 'blog2',
   },
   {
@@ -91,7 +91,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Sunglasses aren\'t just a fashion statement. They are a crucial tool for protecting your eyes from harmful ultraviolet (UV) radiation.',
     content: 'Just like your skin, your eyes need protection from the sun\'s harmful UV rays. Long-term exposure to UV radiation can increase your risk of developing cataracts, macular degeneration, and other serious eye conditions. When choosing sunglasses, make sure they block 100% of both UVA and UVB rays. A wide-brimmed hat also provides excellent protection. Remember to wear them even on cloudy days, as UV rays can penetrate clouds.',
     date: '2024-05-19',
-    author: 'Dr. Marcus Thorne',
+    author: 'Dr. Destaw',
     imageId: 'blog3',
   },
 ];
@@ -107,7 +107,7 @@ export const testimonials: Testimonial[] = [
     id: '2',
     name: 'Michael B.',
     location: 'Brooklyn, NY',
-    quote: 'Dr. Thorne is an exceptional doctor. He took the time to explain my glaucoma diagnosis and treatment plan thoroughly. I feel confident that my vision is in the best hands.',
+    quote: 'Dr. Destaw is an exceptional doctor. He took the time to explain my glaucoma diagnosis and treatment plan thoroughly. I feel confident that my vision is in the best hands.',
   },
   {
     id: '3',
