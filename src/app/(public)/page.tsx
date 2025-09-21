@@ -45,7 +45,7 @@ export default function HomePage() {
       </section>
 
       <section className="py-16 lg:py-24">
-        <div className="container grid grid-cols-1 items-center gap-12 md:grid-cols-2">
+        <div className="container grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:px-8">
           <div className="space-y-4">
             <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">
               Welcome to Orbit Eye Clinic
